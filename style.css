@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#navegation{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#navegation h1{
+    margin-right: 1000px;
+    padding: 20px;
+    color: white;
+}
+
+#navegation a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    transition: all 1s;
+}
+
+#navegation a:hover{
+    color: rgb(168, 197, 223);
+}
+
+h1{
+    font-size: 1.7rem;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 30%;
+    height: 80vh;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+
+.entrada{
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+button{
+    margin-left: 5px;
+    color: aliceblue;
+    background-color: rgb(87, 129, 255);
+    padding: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(74, 167, 255);
+    transform: translateY(-5px);
+}
+
+footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+}
+
+#icone{
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+#icone:hover{
+    transform: scale(1.3);
+}
+
+#icone-linkedin{
+    color: rgb(85, 85, 246);
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+#icone-linkedin:hover{
+    transform: scale(1.3);
+}
+
+
+
